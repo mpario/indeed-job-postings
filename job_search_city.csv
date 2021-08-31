@@ -1,0 +1,307 @@
+,location,job search,Counts
+0,Agoura Hills,data analyst,4
+1,Alameda,data scientist,3
+2,Alameda,data analyst,1
+3,Alamo,data engineer,2
+4,Alhambra,data analyst,1
+5,Anaheim,data analyst,4
+6,Antioch,data analyst,1
+7,Atherton,data scientist,2
+8,Austin,data engineer,1
+9,Bakersfield,data scientist,4
+10,Bakersfield,data analyst,1
+11,Baldwin Park,data analyst,3
+12,Beaumont,data analyst,2
+13,Belmont,data scientist,1
+14,Berkeley,data analyst,5
+15,Berkeley,data engineer,1
+16,Beverly Hills,data scientist,2
+17,Beverly Hills,data analyst,1
+18,Bloomington,data scientist,1
+19,Brea,data analyst,1
+20,Brisbane,data scientist,3
+21,Brisbane,data analyst,1
+22,Buena Park,data analyst,1
+23,Burbank,data analyst,19
+24,Burbank,data scientist,7
+25,Burbank,data engineer,5
+26,Burlingame,data scientist,3
+27,Burlingame,data analyst,1
+28,Burlingame,data engineer,1
+29,Calabasas,data analyst,3
+30,Calabasas,data scientist,3
+31,California,data scientist,13
+32,California,data analyst,11
+33,California,data engineer,8
+34,California City,data analyst,2
+35,Campbell,data engineer,1
+36,Campbell,data scientist,1
+37,Carlsbad,data engineer,13
+38,Carlsbad,data analyst,7
+39,Carlsbad,data scientist,6
+40,Carson,data analyst,1
+41,Cerritos,data analyst,6
+42,Cerritos,data scientist,2
+43,Chatsworth,data analyst,4
+44,Chatsworth,data engineer,3
+45,Chico,data engineer,2
+46,China Lake,data analyst,2
+47,Chino,data analyst,1
+48,Chula Vista,data analyst,1
+49,Commerce,data analyst,2
+50,Concord,data analyst,2
+51,Corona,data analyst,1
+52,Costa Mesa,data analyst,14
+53,Costa Mesa,data scientist,13
+54,Costa Mesa,data engineer,2
+55,Culver City,data analyst,4
+56,Culver City,data scientist,4
+57,Culver City,data engineer,2
+58,Cupertino,data analyst,4
+59,Cupertino,data scientist,2
+60,Cypress,data analyst,2
+61,Davis,data engineer,1
+62,Diamond Bar,data analyst,3
+63,Diamond Bar,data scientist,1
+64,Downey,data analyst,1
+65,Duarte,data analyst,2
+66,Dublin,data analyst,1
+67,East Palo Alto,data scientist,2
+68,East Palo Alto,data engineer,1
+69,Edwards,data analyst,2
+70,Edwards AFB,data analyst,2
+71,Edwards AFB,data engineer,1
+72,El Dorado Hills,data analyst,1
+73,El Segundo,data engineer,5
+74,El Segundo,data scientist,5
+75,El Segundo,data analyst,4
+76,Elk Grove,data scientist,2
+77,Emeryville,data analyst,2
+78,Encinitas,data analyst,1
+79,Encino,data scientist,1
+80,Escondido,data analyst,1
+81,Eureka,data analyst,1
+82,Folsom,data engineer,4
+83,Folsom,data scientist,3
+84,Folsom,data analyst,2
+85,Foothill Ranch,data scientist,1
+86,Foster City,data engineer,10
+87,Foster City,data analyst,7
+88,Foster City,data scientist,3
+89,Fountain Valley,data analyst,4
+90,Fremont,data engineer,14
+91,Fremont,data analyst,13
+92,Fremont,data scientist,7
+93,French Camp,data analyst,2
+94,Fresno,data analyst,1
+95,Furnace Creek,data scientist,1
+96,Gardena,data analyst,2
+97,Glendale,data analyst,10
+98,Glendale,data scientist,1
+99,Goleta,data scientist,2
+100,Goleta,data analyst,1
+101,Goleta,data engineer,1
+102,Hayward,data analyst,1
+103,Hercules,data analyst,1
+104,Hercules,data scientist,1
+105,Hollywood,data engineer,1
+106,Inglewood,data scientist,9
+107,Inglewood,data analyst,2
+108,Irvine,data analyst,35
+109,Irvine,data scientist,23
+110,Irvine,data engineer,8
+111,La Mesa,data analyst,1
+112,Lake Forest,data scientist,2
+113,Lake Forest,data analyst,1
+114,Lancaster,data analyst,1
+115,Larkspur,data scientist,2
+116,Lathrop,data engineer,2
+117,List,data engineer,1
+118,Livermore,data analyst,1
+119,Livermore,data scientist,1
+120,Long Beach,data analyst,8
+121,Long Beach,data engineer,4
+122,Loomis,data scientist,1
+123,Los Alamitos,data analyst,1
+124,Los Altos,data scientist,6
+125,Los Altos,data engineer,1
+126,Los Angeles,data analyst,116
+127,Los Angeles,data scientist,75
+128,Los Angeles,data engineer,31
+129,Los Angeles County,data analyst,2
+130,Los Gatos,data scientist,7
+131,Los Gatos,data engineer,2
+132,Madera,data analyst,2
+133,Manhattan Beach,data analyst,1
+134,Marine Corps Air Station Miramar,data analyst,1
+135,Menlo Park,data scientist,33
+136,Menlo Park,data engineer,19
+137,Menlo Park,data analyst,6
+138,Merced,data analyst,2
+139,Milpitas,data analyst,5
+140,Milpitas,data engineer,4
+141,Milpitas,data scientist,3
+142,Modesto,data analyst,2
+143,Moffett Field,data scientist,1
+144,Monrovia,data scientist,1
+145,Montebello,data engineer,4
+146,Montebello,data analyst,1
+147,Monterey,data analyst,3
+148,Monterey Park,data analyst,1
+149,Mountain View,data scientist,93
+150,Mountain View,data engineer,18
+151,Mountain View,data analyst,17
+152,Naval Medical Center San Diego,data analyst,1
+153,Newark,data scientist,11
+154,Newark,data analyst,5
+155,Newark,data engineer,1
+156,Newport Beach,data engineer,3
+157,Newport Beach,data analyst,1
+158,Northridge,data engineer,1
+159,Northridge,data scientist,1
+160,Novato,data analyst,1
+161,Oakland,data analyst,18
+162,Oakland,data scientist,14
+163,Oakland,data engineer,7
+164,Oakley,data scientist,1
+165,Ontario,data scientist,2
+166,Ontario,data analyst,1
+167,Orange,data analyst,6
+168,Orange County,data engineer,1
+169,Orange County,data scientist,1
+170,Palo Alto,data scientist,43
+171,Palo Alto,data analyst,25
+172,Palo Alto,data engineer,23
+173,Pasadena,data analyst,4
+174,Pasadena,data scientist,4
+175,Pasadena,data engineer,1
+176,Perris,data analyst,1
+177,Petaluma,data analyst,2
+178,Playa Vista,data scientist,1
+179,Pleasanton,data engineer,10
+180,Pleasanton,data analyst,6
+181,Pleasanton,data scientist,6
+182,Port Hueneme,data analyst,1
+183,Poway,data analyst,1
+184,Poway,data engineer,1
+185,Rancho Cordova,data analyst,6
+186,Rancho Cordova,data scientist,4
+187,Rancho Cucamonga,data analyst,2
+188,Rancho Mirage,data analyst,1
+189,Redding,data analyst,1
+190,Redlands,data analyst,2
+191,Redlands,data scientist,1
+192,Redondo Beach,data analyst,1
+193,Redwood City,data scientist,21
+194,Redwood City,data engineer,13
+195,Redwood City,data analyst,7
+196,Redwood Shores,data scientist,1
+197,Remote,data scientist,68
+198,Remote,data analyst,54
+199,Remote,data engineer,41
+200,Richmond,data analyst,3
+201,Richmond,data scientist,2
+202,Riverside,data analyst,1
+203,Rosemead,data analyst,1
+204,Roseville,data analyst,12
+205,Sacramento,data analyst,19
+206,Sacramento,data scientist,7
+207,San Bruno,data analyst,3
+208,San Bruno,data scientist,1
+209,San Carlos,data engineer,3
+210,San Carlos,data scientist,3
+211,San Carlos,data analyst,1
+212,San Clemente,data scientist,1
+213,San Diego,data analyst,35
+214,San Diego,data scientist,33
+215,San Diego,data engineer,12
+216,San Dimas,data analyst,2
+217,San Francisco,data scientist,218
+218,San Francisco,data analyst,152
+219,San Francisco,data engineer,114
+220,San Francisco Bay Area,data scientist,16
+221,San Francisco Bay Area,data analyst,10
+222,San Francisco Bay Area,data engineer,3
+223,San Gabriel Valley,data analyst,2
+224,San Jose,data scientist,46
+225,San Jose,data analyst,26
+226,San Jose,data engineer,23
+227,San Leandro,data analyst,3
+228,San Luis Obispo,data analyst,8
+229,San Marcos,data analyst,4
+230,San Mateo,data scientist,14
+231,San Mateo,data engineer,11
+232,San Mateo,data analyst,5
+233,San Rafael,data analyst,2
+234,San Ramon,data analyst,20
+235,San Ramon,data scientist,5
+236,Santa Ana,data analyst,12
+237,Santa Ana,data scientist,5
+238,Santa Ana,data engineer,1
+239,Santa Barbara,data analyst,5
+240,Santa Barbara,data engineer,2
+241,Santa Barbara,data scientist,2
+242,Santa Clara,data scientist,34
+243,Santa Clara,data analyst,24
+244,Santa Clara,data engineer,21
+245,Santa Clara Valley,data scientist,46
+246,Santa Clara Valley,data analyst,5
+247,Santa Cruz,data scientist,2
+248,Santa Cruz,data analyst,1
+249,Santa Cruz County,data analyst,2
+250,Santa Monica,data engineer,23
+251,Santa Monica,data analyst,17
+252,Santa Monica,data scientist,10
+253,Santa Rosa,data analyst,1
+254,Santa Ynez,data analyst,1
+255,Scotts Valley,data analyst,2
+256,Seal Beach,data analyst,1
+257,Seaside,data analyst,1
+258,Sherman Oaks,data analyst,1
+259,Silicon Valley,data analyst,2
+260,Silicon Valley,data scientist,2
+261,Silicon Valley,data engineer,1
+262,South San Francisco,data scientist,22
+263,South San Francisco,data engineer,1
+264,Stanford,data analyst,4
+265,Stanford,data scientist,4
+266,Stanford,data engineer,1
+267,Stockton,data analyst,2
+268,Sunnyvale,data analyst,29
+269,Sunnyvale,data scientist,23
+270,Sunnyvale,data engineer,10
+271,Sylmar,data analyst,2
+272,Temporarily Remote,data scientist,1
+273,Thousand Oaks,data scientist,5
+274,Thousand Oaks,data analyst,3
+275,Thousand Oaks,data engineer,2
+276,Torrance,data scientist,3
+277,Torrance,data analyst,2
+278,Tustin,data analyst,3
+279,Tustin,data scientist,2
+280,Union City,data analyst,2
+281,United States,data analyst,3
+282,United States,data scientist,1
+283,United Statesâ€¢Remote,data analyst,1
+284,Universal City,data analyst,3
+285,Upland,data analyst,2
+286,Vacaville,data scientist,1
+287,Valencia,data analyst,1
+288,Valencia,data scientist,1
+289,Vandenberg AFB,data analyst,4
+290,Venice,data engineer,1
+291,Venice,data scientist,1
+292,Vernon,data engineer,2
+293,Vernon,data analyst,1
+294,Vista,data analyst,3
+295,Walnut Creek,data engineer,1
+296,West Hills,data analyst,1
+297,West Hollywood,data analyst,4
+298,West Hollywood,data scientist,2
+299,West Sacramento,data analyst,1
+300,West Sacramento,data scientist,1
+301,Westlake Village,data analyst,3
+302,Westlake Village,data scientist,2
+303,Woodland Hills,data analyst,4
+304,Woodland Hills,data engineer,3
+305,Woodland Hills,data scientist,1

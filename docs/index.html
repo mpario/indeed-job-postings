@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  	<link rel="stylesheet" href="style.css">
+    <title>Bootcamp Final Project</title>
+
+  </head>
+
+  <body>
+
+    <div class="container" class="d-flex">
+      <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+      
+    <div class="bg-image d-flex justify-content-left align-items-center" style="
+      background-image: url('Images/GettyImages-1132660268.jpg');
+      height: 600px; 
+      ">
+      <div>
+        <h1 class="text-white">Key skills employers are seeking </h1>
+        <h1 class="text-white">in Data Analyst, Data Engineer, </h1>
+        <h1 class="text-white"> and Data Scientist positions </h1>
+      </div>
+    </div> 
+
+    <br>
+      <div class="container" class="d-flex">
+        <div class="content-wrapper">
+          <h2>Project Description and Outline</h2>
+          <hr>
+          <p>For our final project, we wanted to determine the skills required for the top data analyst roles: Data Analyst, Data Scientist, and Data Engineer.  In order to find the most sought after skills employers are seeking for each position, we scraped a popular job board, Indeed.com, to obtain job title, job description, location, etc for positions posted in California.  Next, we combined the data and used a Natural Language Processing model to analyze the importance of words within the job descriptions and have determined a confidence rating for the top data analyst roles.  Finally, we used Tableau to create visualizations of the data to understand the importance and frequency of the words.</p>
+        </div>
+      </div>
+      <br>
+
+        <div class="container" class="d-flex">
+          <div class="content-wrapper">
+            <div class="row">
+              <div class="col">
+                <img class="shadow" src="Images/Web_Scraping_Code.png" width="600" height="400" class="img-fluid" alt="Responsive image" >
+              </div>
+              <div class="col">
+                <h2>Web Scraping</h2>
+                <hr>
+                <p>Using Beautiful Soup, we scraped Indeed.com for job postings for Data Analyst, Data Engineer, and Data Scientist positions and extracted pertinent data related to the given job title. We then loaded this JSON data into Pandas, cleaned the data, combined the job postings , and finally converted the dataframes into CSV files to be used in our next step with Natural Language Processing (NLP).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container" class="d-flex">
+          <div class="content-wrapper">
+            <div class="row">
+              <h2>Machine Learning</h2>
+              <hr>
+              <div class="col-lg-6 col-md-6">
+                <br>
+                <p style="padding-top: 20px;"><b><u>Pre-Processing:</u></b></p>
+                <p></p>
+                <p>We used Pyspark to tokenize, remove stop-words, stem, and lemmatize the text.  Then used the pos-tag function in the nltk package to categorize words by part-of-speech.
+                  Finally, we used Pandas dataframes to organize and aggregate functions on the dataset.</p>
+                <p></p>
+                <br>
+                <p style="padding-top: 20px;"><b><u>Supervised Learning:</u></b></p>
+                <p>We chose to focus on Natural Language Processing since the majority of our data was context and text based.  Based our machine learning model off of Badreesh Shetty's spam-or-ham classifier, which uses RandomForest to categorize emails, and used both CountVectorizer and TF-IDF to analyze the job descriptions of tagged postings.</p>
+                <p></p>
+                <p>TF-IDF model was able to accurately predict job requirements for the Data Analyst and Data Scientist positions but had a significantly lower confidence score for Data Engineer positions:</p>
+                <p>
+                    <li style="padding-left: 60px;">Data Analyst: 183</li>
+                    <li style="padding-left: 60px;">Data Engineer: 79</li>
+                    <li style="padding-left: 60px;">Data Scientist: 184</li>
+                  </p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <img class="shadow" src="Images/Machine_Learning_Code.png" width="600" height="400" class="img-fluid" alt="Responsive image">
+                <h4></h4>
+                <br>
+                <img class="shadow" width="600" height="400" src="Images/Confidence_Chart.png">
+                <h4 style="text-align: center;">Confidence_Chart</h4>
+              </div>
+
+
+        <div class="container" class="d-flex">
+          <div class="content-wrapper1">
+            <h2>Visualizations</h2>
+            <hr>
+            <p>To create our infographic titled "Word Frequency in Data Analyst, Engineer, and Scientist Job Postings in California," we used the Tag Cloud and Bar Chart visualization options in Tableau. To create our remaining visualizations, we used the Line Plot and Bar Chart visualization options to offer a more in depth analysis to our data. To create the "Job Posting Distribution Maps," we converted California city names to a geographical measure, then utilized Tableau's map visualizations.</p>
+
+            <div class="col-lg-12 col-md-12">
+              <img src="Images/Word_Visualization.png" class="img-fluid" alt="Responsive image" style="padding: 40px 0px 20px">
+            </div>
+            <div class="col-lg-12 col-md-12">
+              <div class="viz"> 
+                <img class="shadow1" src="Images/Job Postings over 30 Days.png" class="img-fluid" alt="Responsive image">
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+              <div class="viz"> 
+                <img class="shadow1" src="Images/Tech Skills DA (Top 30 Count).png" class="img-fluid" alt="Responsive image">
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+              <div class="viz">
+                <img class="shadow1" src="Images/Tech Skills DE (Top 30 Count).png" class="img-fluid" alt="Responsive image">
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+              <div class="viz">
+                <img class="shadow1" src="Images/Tech Skills DS (Top 30 Count).png" class="img-fluid" alt="Responsive image">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container" class="d-flex">
+          <div class="content-wrapper2">
+            <h2>Job Posting Distribution Maps</h2>
+            <hr>
+            <div class="col-lg-12 col-md-12">
+              <div class="viz">
+                <h3>California Postings</h3>
+                <br>
+              <img class="shadow1" src="Images/Map_CA.png" class="img-fluid" alt="Responsive image">
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+              <div class="viz">
+                <h3>Northern California</h3>
+                <br>
+                <img class="shadow1" src="Images/Map_NorCA.png" class="img-fluid" alt="Responsive image">
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+              <div class="viz">
+                <h3>San Francisco / Bay Area</h3>
+                <br>
+              <img class="shadow1" src="Images/Map_SanFrancisco_SiliconValley.png" class="img-fluid" alt="Responsive image">
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+              <div class="viz">
+                <h3>Southern California</h3>
+                <br>
+                <img class="shadow1" src="Images/Map_SoCal.png" class="img-fluid" alt="Responsive image">
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+              <div class="viz">
+                <h3>Los Angeles - Orange County</h3>
+                <br>
+                <img class="shadow1" src="Images/Map_LA-OC.png" class="img-fluid" alt="Responsive image">
+              </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+              <div class="viz">
+                <h3>San Diego</h3>
+                <br>
+                <img class="shadow1"src="Images/Map_SanDiego.png" class="img-fluid" alt="Responsive image">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <br>
+
+      <hr>
+
+    <div class="footer-box" class="d-flex">
+      <h4>Project Team:  </h4>
+      <p style="margin-bottom: 5px;">Scott Cerny, Cameron Kochi, Becky McLaughlin, Mehul Parekh, Cameron Proctor</p>
+      <a href="https://github.com/Heyitskochi/Final-Project">Github.com/Heyitskochi/Final-Project</a>
+    </div>
+<hr>
+    <div class="reference-box" class="d-flex">
+      <h4>References:  </h4>
+      <li><a href="Indeed.com">Indeed.com</a></li>
+      <li><a href="https://github.com/BadreeshShetty/Natural-Language-Processing-NLP-for-Machine-Learning">ttps://github.com/BadreeshShetty/Natural-Language-Processing-NLP-for-Machine-Learning</a></li>
+      <li><a href="https://www.velvetjobs.com/resume/manager-data-engineering-resume-sample">https://www.velvetjobs.com/resume/manager-data-engineering-resume-sample</a></li>
+    </div>  
+
+  </body>
+    
+</html>
